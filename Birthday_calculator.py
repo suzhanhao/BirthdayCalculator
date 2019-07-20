@@ -65,9 +65,9 @@ class Age:
 
 mywindow = Tk()
 label_today = Label(mywindow, text='Today is %s' % today.date())
-label_input = Label(mywindow, text="Enter your birthday in y-m-d format: ")
+label_input = Label(mywindow, text="Enter your date of birth in y-m-d format: ")
 entry = Entry(mywindow)
-button_cal = Button(mywindow, bg='blue',text="Click to calculate your result!", command=birthday_count)
+button_cal = Button(mywindow, text="Click to calculate your result!", command=birthday_count)
 
 
 label_today.grid(row=0, column=0)
