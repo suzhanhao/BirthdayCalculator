@@ -1,3 +1,6 @@
+"Author: Zhanhao Su"
+"Date: 2020-3-25"
+
 from datetime import datetime
 from tkinter import *
 
